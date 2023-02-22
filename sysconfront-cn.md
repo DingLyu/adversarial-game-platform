@@ -7,7 +7,7 @@ SysConfront 附在论文“Ding Lyu, Hanxiao Liu, Lin Wang, and Xiaofan Wang. Co
 论文中提出的对抗策略都嵌入到平台中。
 
 ## Dependencies
-SysConfront 受 Python（包括多个三方包）、Django 和 MySQL 支持。
+SysConfront 是基于 Python（包括多个三方包）、Django 和 MySQL 搭建的线上平台。
 
 ## 用户手册
 
@@ -36,7 +36,7 @@ xxxxxxx@qq.com（邮箱）和xxxxxx（密码）。 'xxxxxx' 由字母组成。�
 当用户提交 N、ackmin、ackmax、defmin、defmax、hpmin 和 hpmax 时，N 个节点将添加到空主面板。
 每个节点属性的值服从从最小到最大的均匀分布。
 如果用户重新提交表单（黄色框），现有节点将被删除并添加一些新节点。
-<div align=center><img width="50%" src="img_sc/networkconstruction2.png"></div>
+<div align=center><img width="80%" src="img_sc/networkconstruction2.png"></div>
 
 接下来，用户需要基于一些经典的网络模型，包括 WS 小世界模型和 BA 无标度模型，在节点之间添加链接。
 例如，用户在提交 k 和 p 时构建一个 WS 小世界网络。
@@ -141,7 +141,7 @@ xxxxxxx@qq.com（邮箱）和xxxxxx（密码）。 'xxxxxx' 由字母组成。�
 <div align=center><img width="45%" src="img_sc/confrontationgame4.png">
 <img width="45%" src="img_sc/confrontationgame5.png"></div>
 
-一旦一个网络的所有节点都被淘汰，另一个网络将赢得比赛。 G2 的 hp 为零。
+一旦一个网络的所有节点都被淘汰，另一个网络将赢得比赛。 G2 的 <i>hp</i> 为零。
 <div align=center><img width="80%" src="img_sc/confrontationgame6.png"></div>
 
 <b><我>
