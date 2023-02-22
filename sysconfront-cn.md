@@ -2,7 +2,7 @@
 
 ## 简介
 SysConfront 是一个在线平台（ https://sysconfront.dinglyu.cn/ ），供用户构建自定义网络系统和可视化网络系统的对抗游戏。
-SysConfront 附在论文“Ding Lyu, Hanxiao Liu, Lin Wang, and Xiaofan Wang. Confrontation Game of Networked Systems. Submitted to IEEE TNSE.”中。
+SysConfront 附在论文“Ding Lyu, Hanxiao Liu, Lin Wang, and Xiaofan Wang. Confrontation Game of Networked Systems. Submitted to IEEE TNSE.” 中。
 论文中提出的对抗策略都嵌入到平台中。
 
 ## Dependencies
@@ -11,12 +11,12 @@ SysConfront 是基于 Python（包括多个三方包）、Django 和 MySQL 搭�
 ## 用户手册
 
 ### 1 注册和登陆
-访问 https://sysconfront.dinglyu.cn/register/。我们建议用户使用 xxxxxx（用户名）注册一个帐户，
+访问 https://sysconfront.dinglyu.cn/register/ 。我们建议用户使用 xxxxxx（用户名）注册一个帐户，
 xxxxxxx@qq.com（邮箱）和xxxxxx（密码）。 'xxxxxx' 由字母组成。无需通过电子邮件进行验证。
 
 <div align=center><img src="img_sc/register.png"></div>
 
-访问 https://sysconfront.dinglyu.cn/login/（或点击“我已有账号”按钮）。 使用以下用户名和密码登录平台：
+访问 https://sysconfront.dinglyu.cn/login/ （或点击“我已有账号”按钮）。 使用以下用户名和密码登录平台：
 <div align=center><img src="img_sc/login.png"></div>
 
 ### 2 网络构建
@@ -32,7 +32,7 @@ xxxxxxx@qq.com（邮箱）和xxxxxx（密码）。 'xxxxxx' 由字母组成。�
 
 网络构建分为两步：添加节点和添加连边。
 首先，用户可以生成具有三个内在属性（攻击、防御和健康）的多个 (N) 个节点。
-当用户提交 N、ackmin、ackmax、defmin、defmax、hpmin 和 hpmax 时，N 个节点将添加到空主面板。
+当用户提交 N、ackmin、ackmax、defmin、defmax、hpmin 和 hpmax 时， N 个节点将添加到空主面板。
 每个节点属性的值服从从最小到最大的均匀分布。
 如果用户重新提交表单（黄色框），现有节点将被删除并添加一些新节点。
 <div align=center><img width="80%" src="img_sc/networkconstruction2.png"></div>
@@ -69,7 +69,7 @@ xxxxxxx@qq.com（邮箱）和xxxxxx（密码）。 'xxxxxx' 由字母组成。�
 用户可以通过提交绿框形式的策略代码来切换对抗策略。
 策略代码为两个字母或两个数字编码，如下所示。
 前一个字母（或数字）对应于自定义网络的策略。 后者对应于对抗网络的策略。
-设置对抗游戏时策略码默认为'aa'。
+设置对抗游戏时策略码默认为 'aa' 。
 
 <div align=center>
     <table>
@@ -140,7 +140,7 @@ xxxxxxx@qq.com（邮箱）和xxxxxx（密码）。 'xxxxxx' 由字母组成。�
 <div align=center><img width="45%" src="img_sc/confrontationgame4.png">
 <img width="45%" src="img_sc/confrontationgame5.png"></div>
 
-一旦一个网络的所有节点都被淘汰，另一个网络将赢得比赛。 G2 的 <i>hp</i> 为零。
+一旦一个网络的所有节点都被淘汰，另一个网络将赢得比赛。 下图中 G2 的 <i>hp</i> 为零，则 G1 获得网络对抗的胜利。
 <div align=center><img width="80%" src="img_sc/confrontationgame6.png"></div>
 
 <b><我>
