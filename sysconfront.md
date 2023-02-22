@@ -36,7 +36,7 @@ First, users can generate a number (N) of nodes with three intrinsic attributes 
 N nodes are added to the empty main panel when users submit N, ackmin, ackmax, defmin, defmax, hpmin, and hpmax.
 The value of each node attribute follows the uniform distribution from the minimum to the maximum. 
 If users resubmit the form (yellow box), existing nodes will be removed and some new nodes will be added.
-<div align=center><img width="50%" src="img_sc/networkconstruction2.png"></div>
+<div align=center><img width="80%" src="img_sc/networkconstruction2.png"></div>
 
 Next, users need to add links between nodes based on some classic network models, including WS small-world model and BA scale-free model.
 For example, users build a WS small-world network when submitting the k and p. 
@@ -143,7 +143,7 @@ The orders are visualized in the main panel.
 <div align=center><img width="45%" src="img_sc/confrontationgame4.png">
 <img width="45%" src="img_sc/confrontationgame5.png"></div>
 
-Once all the nodes of one network are eliminated, the other network wins the game. The hp of G2 is zero.
+Once all the nodes of one network are eliminated, the other network wins the game. The <i>hp</i> of G2 is zero.
 <div align=center><img width="80%" src="img_sc/confrontationgame6.png"></div>
 
 <b><i>
