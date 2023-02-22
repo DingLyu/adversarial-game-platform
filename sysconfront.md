@@ -143,7 +143,7 @@ The orders are visualized in the main panel.
 <div align=center><img width="45%" src="img_sc/confrontationgame4.png">
 <img width="45%" src="img_sc/confrontationgame5.png"></div>
 
-Once all the nodes of one network are eliminated, the other network wins the game. The <i>hp</i> of G2 is zero.
+Once all the nodes of one network are eliminated, the other network wins the game. G1 wins the game and the <i>hp</i> of G2 is zero, as shown below:
 <div align=center><img width="80%" src="img_sc/confrontationgame6.png"></div>
 
 <b><i>
