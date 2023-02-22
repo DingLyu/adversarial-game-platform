@@ -1,8 +1,7 @@
 # SysConfront 文档
 
 ## 简介
-SysConfront 是一个在线平台，供用户构建自定义网络系统和可视化网络系统的对抗游戏。
-SysConfront地址为https://sysconfront.dinglyu.cn/。
+SysConfront 是一个在线平台（ https://sysconfront.dinglyu.cn/ ），供用户构建自定义网络系统和可视化网络系统的对抗游戏。
 SysConfront 附在论文“Ding Lyu, Hanxiao Liu, Lin Wang, and Xiaofan Wang. Confrontation Game of Networked Systems. Submitted to IEEE TNSE.”中。
 论文中提出的对抗策略都嵌入到平台中。
 
