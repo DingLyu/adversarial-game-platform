@@ -51,27 +51,27 @@ The right panel presents the statistics of node attributes and structural charac
 <b><i>If users resubmit the yellow-box form, existing nodes and their links are removed, and new nodes are then added.</i></b>
 
 
-### Set up a confrontation game of two networks
-By clicking the 'confrontation ground' hyperlink in the navbar, users can access the network confrontation page, as shown below:
+### Set up an adversarial game of two networks
+By clicking the 'Adversarial Game' hyperlink in the navbar, users can access the adversarial game between two networks, as shown below:
 <div align=center><img width="80%" src="img_sc/confrontationgame1.png"></div>
 
-Click the green circle entitled hyperlink in the red box to access the corresponding network's confrontation game. 
+Click the green circle entitled hyperlink in the red box to access the corresponding network's adversarial game. 
 <b><i>Note that the platform will report an error if there is no node or edge in the network (empty network or only nodes).</i></b>
 The main panel with a blue top line visualizes its structure.
 <div align=center><img width="80%" src="img_sc/confrontationgame2.png"></div>
 
-Before a confrontation game, users need to add an adversarial network by submitting the yellow-box form.
+Before an adversarial game, users need to add an adversarial network by submitting the yellow-box form.
 The adversarial network (orange) has the same number of nodes and attributes as the custom network (blue).
 Besides, the number of edges is also the same if the network models are the same.
 The right panel with an orange top line presents the information about the adversarial network.
 <div align=center><img width="80%" src="img_sc/confrontationgame3.png"></div>
 
-In the confrontation game, users need to set the confrontation strategies of both networks. 
-The confrontation strategies proposed in the paper are all embedded into the platform.
-Users can switch confrontation strategies by submitting the strategy code in the green-box form.
+In the adversarial game, users need to set the adversarial strategies of both networks. 
+The adversarial strategies proposed in the paper are all embedded into the platform.
+Users can switch adversarial strategies by submitting the strategy code in the green-box form.
 The strategy code is two-letter or two-number encoding, which is listed below. 
 The former letter (or number) corresponds to the custom network' strategy. The latter corresponds to the adversarial network's strategy.
-The strategy code is default 'aa' when setting a confrontation game. 
+The strategy code is default 'aa' when setting an adversarial game. 
 
 
 <div align=center>
@@ -82,7 +82,7 @@ The strategy code is default 'aa' when setting a confrontation game.
             <td><b>Strategy</b></td>
         </tr>
         <tr>
-            <th rowspan="8">No-coop confrontation strategies</th>
+            <th rowspan="8">attack strategies</th>
             <td>1</td>
             <td>low_<i>def</i>_first</td>
         </tr>
@@ -115,7 +115,7 @@ The strategy code is default 'aa' when setting a confrontation game.
             <td>high_<i>ack</i>_high_<i>def</i>_first</td>
         </tr>
         <tr>
-            <th rowspan="5">Cooperative confrontation strategies</th>
+            <th rowspan="5">Cooperative attack strategies</th>
             <td>a</td>
             <td>cooperative_attacking</td>
         </tr>
@@ -138,7 +138,7 @@ The strategy code is default 'aa' when setting a confrontation game.
     </table>  
 </div>
 
-Users click the 'Next round' button to compute both sides' attack or cooperation orders according to their confrontation strategies.
+Users click the 'Next round' button to compute both sides' attack or cooperation orders according to their adversarial strategies.
 The orders are visualized in the main panel.
 <div align=center><img width="45%" src="img_sc/confrontationgame4.png">
 <img width="45%" src="img_sc/confrontationgame5.png"></div>
@@ -147,7 +147,7 @@ Once all the nodes of one network are eliminated, the other network wins the gam
 <div align=center><img width="80%" src="img_sc/confrontationgame6.png"></div>
 
 <b><i>
-Note that users can switch the confrontation strategies at the end of one round or at the beginning of the confrontation game.
+Note that users can switch the adversarial strategies at the end of one round or at the beginning of the adversarial game.
 </i></b>
 
 ### Profile
