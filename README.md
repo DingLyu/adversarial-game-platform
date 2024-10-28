@@ -2,7 +2,6 @@
 
 ## Introduction
 SysConfront is an online platform for users to build custom networked systems and visualize adversarial games of networked systems. 
-The SysConfront address is https://adversarialgame.dinglyu.cn/.
 SysConfront is attached to the paper "Ding Lyu, Hanxiao Liu, Lin Wang, and Xiaofan Wang. A Two-network Adversarial Game: Model, Strategy, and Structure"
 The strategies proposed in the paper are all embedded into the platform.
 
@@ -12,12 +11,12 @@ SysConfront is supported by Python (including pkg), Django, and MySQL.
 ## Guidelines
 
 ### 1 Register and Login
-Access https://sysconfront.dinglyu.cn/register/. We suggest users sign up for an account with xxxxxx (username), 
+We suggest users sign up for an account with xxxxxx (username), 
 xxxxxxx@qq.com (email), and xxxxxx (password). 'xxxxxx' consists of lowercase letters. There is no need to be verified by email.
 
 <div align=center><img src="img_sc/register.png"></div>
 
-Access https://sysconfront.dinglyu.cn/login/ (or click the 'I already have an account' button). Log in to the platform with the username and password below:
+Click the 'I already have an account' button. Log in to the platform with the username and password below:
 <div align=center><img src="img_sc/login.png"></div>
 
 ### 2 Build a network
