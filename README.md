@@ -5,7 +5,7 @@ SysConfront is an online platform for users to build custom networked systems an
 SysConfront is attached to the paper "Ding Lyu, Hanxiao Liu, Lin Wang, and Xiaofan Wang. A Two-network Adversarial Game: Model, Strategy, and Structure"
 The strategies proposed in the paper are all embedded into the platform.
 
-Contact me: Ding Lyu, dylanlyu1225@gmail.com
+If you wanna access to the online platform or the codes for deploying the platform, please contact me: Ding Lyu, dylanlyu1225@gmail.com
 
 ## Dependencies
 SysConfront is supported by Python (including pkg), Django, and MySQL.
